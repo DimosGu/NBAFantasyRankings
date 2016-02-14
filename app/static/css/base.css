@@ -1,0 +1,84 @@
+.navbar-default .navbar-nav>li>a,
+.title h1,
+h3,
+h5,
+.circleComponent label svg g text,
+.refreshButton label svg g text,
+.table>tbody>tr>td,
+.table>thead>tr>th{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.logo{
+    font-size: 200%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.navBarMain{
+    font-size: 100%;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.title{
+    font-size:100%;
+    color: rgb(0,0,0);
+}
+.table>thead>tr>th{
+    font-size:110%;
+}
+
+#ranking_table tr, #ranking_table th{
+    font-size: 1em;
+}
+
+body{
+    background-color: #dededa;
+}
+
+.navbar{
+    background-color: #dededa;
+    border: none;
+}
+
+.navbar-nav > li{
+  /*padding-left:20px;*/
+  padding-right:20px;
+}
+
+/*Solid Horizontal Line*/
+hr{
+    border-color: black;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin-bottom: -0.5%;
+    margin-top: -0.5%;
+}
+
+.filterStats{
+    margin-top: -0.5%;
+}
+
+.circleComponent{
+    display: inline;
+    margin: auto;
+    margin-right: 1.95%;
+}
+
+.refreshButton label,
+.circleComponent label{
+    cursor: pointer;
+}
+
+#periodContainer {
+    display:inline-block;
+    width: 54%;
+}
+
+#refreshContainer {
+    display:inline-block;
+    width:auto;
+}
